@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{f7b39557-e7b3-4a9d-a8f5-2e17db8bdeaf}">
+		<property name="assetPath">
+			<value>SFX/Footsteps/Wood/footsteps_wood-005.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.093583333333333338</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{fd8154db-4ef0-4239-9cf5-9289aa19cee2}</destination>
+		</relationship>
+	</object>
+</objects>

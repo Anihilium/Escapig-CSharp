@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{242cfda0-0b32-48bb-8ec3-039a6fcfd1b7}">
+		<property name="assetPath">
+			<value>MUSIC/credit_track.ogg</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>60</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{fd8154db-4ef0-4239-9cf5-9289aa19cee2}</destination>
+		</relationship>
+	</object>
+</objects>

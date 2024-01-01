@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{1ebb7abf-a309-4037-835e-bc32d94c78a9}">
+		<property name="assetPath">
+			<value>MUSIC/LVL/pulse.ogg</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>35</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{fd8154db-4ef0-4239-9cf5-9289aa19cee2}</destination>
+		</relationship>
+	</object>
+</objects>

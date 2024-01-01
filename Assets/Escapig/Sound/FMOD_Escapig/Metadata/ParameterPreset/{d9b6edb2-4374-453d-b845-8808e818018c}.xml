@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{d9b6edb2-4374-453d-b845-8808e818018c}">
+		<property name="name">
+			<value>slaughter</value>
+		</property>
+		<relationship name="folder">
+			<destination>{72f59755-77ed-4346-b3a6-ebd05eb73131}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{3d793b20-42ad-4f42-bb40-3aa177ccd649}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{3d793b20-42ad-4f42-bb40-3aa177ccd649}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>yes</value>
+			<value>no</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

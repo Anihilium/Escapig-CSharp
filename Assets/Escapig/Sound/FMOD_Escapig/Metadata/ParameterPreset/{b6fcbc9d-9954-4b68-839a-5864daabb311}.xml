@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{b6fcbc9d-9954-4b68-839a-5864daabb311}">
+		<property name="name">
+			<value>justine_leaves</value>
+		</property>
+		<relationship name="folder">
+			<destination>{72f59755-77ed-4346-b3a6-ebd05eb73131}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{ba849c08-35a0-42a0-bf60-efafd867658a}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{ba849c08-35a0-42a0-bf60-efafd867658a}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>no</value>
+			<value>yes</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

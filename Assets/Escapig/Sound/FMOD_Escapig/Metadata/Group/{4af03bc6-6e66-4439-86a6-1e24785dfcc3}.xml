@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{4af03bc6-6e66-4439-86a6-1e24785dfcc3}">
+		<property name="name">
+			<value>Ducker</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{fb0658fd-d842-40f6-9ef2-977e7e12a17c}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{cfd8b674-bbdc-420a-b533-4baf51a2645b}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{d35e6cfd-4d22-4dd0-8773-9fd1d40069be}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{fb0658fd-d842-40f6-9ef2-977e7e12a17c}">
+		<relationship name="effects">
+			<destination>{da33ba97-0cfd-4bbc-bc70-2cfe629f462a}</destination>
+			<destination>{f8a5a60f-171a-456b-8d5b-4fcac343f59e}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{cfd8b674-bbdc-420a-b533-4baf51a2645b}" />
+	<object class="MixerBusFader" id="{da33ba97-0cfd-4bbc-bc70-2cfe629f462a}" />
+	<object class="Sidechain" id="{f8a5a60f-171a-456b-8d5b-4fcac343f59e}" />
+</objects>

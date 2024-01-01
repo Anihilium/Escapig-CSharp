@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5866869168974757362
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e75a99f25a317dc40b02ffa2cfa804bf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e75a99f25a317dc40b02ffa2cfa804bf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.92
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e75a99f25a317dc40b02ffa2cfa804bf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.33
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e75a99f25a317dc40b02ffa2cfa804bf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.47
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e75a99f25a317dc40b02ffa2cfa804bf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e75a99f25a317dc40b02ffa2cfa804bf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e75a99f25a317dc40b02ffa2cfa804bf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e75a99f25a317dc40b02ffa2cfa804bf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e75a99f25a317dc40b02ffa2cfa804bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e75a99f25a317dc40b02ffa2cfa804bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e75a99f25a317dc40b02ffa2cfa804bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e75a99f25a317dc40b02ffa2cfa804bf,
+        type: 3}
+      propertyPath: m_Name
+      value: Enclot_individuel Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e75a99f25a317dc40b02ffa2cfa804bf,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3018766278497016393}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e75a99f25a317dc40b02ffa2cfa804bf,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7293606038011238351}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e75a99f25a317dc40b02ffa2cfa804bf,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7794251430116476427}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e75a99f25a317dc40b02ffa2cfa804bf,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8074440205521696030}
+  m_SourcePrefab: {fileID: 100100000, guid: e75a99f25a317dc40b02ffa2cfa804bf, type: 3}
+--- !u!1 &6749250685283549347 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e75a99f25a317dc40b02ffa2cfa804bf,
+    type: 3}
+  m_PrefabInstance: {fileID: 5866869168974757362}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3018766278497016393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6749250685283549347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2390f190e6c387d488be2865002ab584, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Toggleable: 1
+  LerpTime: 1
+  pigToLiberate: 1
+--- !u!114 &7293606038011238351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6749250685283549347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b97b4ec7f4688e408d02ad38da19dbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activators:
+  - {fileID: 0}
+  activable: {fileID: 3018766278497016393}
+--- !u!114 &7794251430116476427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6749250685283549347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -499298274
+      Data2: 1157872991
+      Data3: 1661450400
+      Data4: -1735156853
+    Path: event:/SFX_freepig
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &8074440205521696030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6749250685283549347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1737015489
+      Data2: 1318015008
+      Data3: 2128933546
+      Data4: 453205881
+    Path: event:/SFX_cage_open
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 8.400001

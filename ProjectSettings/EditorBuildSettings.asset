@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Escapig/Scenes/MainMenu.unity
+    guid: 7496b6a1cc4b90b4aa6ed1b79fa7de4f
+  - enabled: 0
+    path: Assets/Escapig/Scenes/LD1_Lighting.unity
+    guid: 3a57f36cc7ee0bd4ab517587c1ae6ef8
+  - enabled: 0
+    path: Assets/Escapig/Scenes/SampleScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Escapig/Scenes/LD1.unity
+    guid: 03196cb53a7118446ae04aa77a644f4f
+  - enabled: 0
+    path: Assets/Escapig/Scenes/Mateo.unity
+    guid: 4aeaa38b2a3dfd94ca673e334ed902ae
+  - enabled: 1
+    path: Assets/Escapig/Scenes/TMP/SCN_ending_scene.unity
+    guid: 581d9390c9ac75249bc38b39b2adf0b0
+  m_configObjects: {}
